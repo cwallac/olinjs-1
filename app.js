@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 // Start serving webpages.
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8000;
 app.listen(port, function () {
   console.log('Open the address http://localhost:' + port + '/');
 });
